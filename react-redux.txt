@@ -1,2 +1,12 @@
 # 
 + react-redux lib makes it first appearance while providing store to react
++ How to provider store to all the components in our Appln ? --> 
+    Provider component in react-redux with store props
+
++ How do we get hold of react state ? & how do we dispatch an Action from within a React component ?
+    we will acheive this in 3 steps:
+    1) Define a function mapStateToProps : which gets react state as a parameter & returns an object
+    Selectors --> returns some state information from the redux store
+
+    2) Define a function mapDispatchToProps : which gets redux dispatch method as parameter & returns an object
+    3) Connect above functions with our component
