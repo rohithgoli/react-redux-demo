@@ -10,3 +10,16 @@
 
     2) Define a function mapDispatchToProps : which gets redux dispatch method as parameter & returns an object
     3) Connect above functions with our component
+
+
+# Basic React Redux pattern
+    Action creators, reducers, provide the store and connect the components
+    which provides our react components the ability to access redux state &
+    also to dispatch actions to redux store
+
+    For React Redux v7.1, Hooks are added thus enabling to provide hooks as alternative to
+    connect component
+
+    The API allows to subscribe to store & dispatch actions without connect()
+
+    Hence,, How to use instead of connect ?
