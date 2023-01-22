@@ -28,3 +28,12 @@
     + a hook by react-redux library, which is close equivalent to mapStateToProps
     + this hook, accepts function as its parameter & this function is called Selector function
     + this Selector function, receives redux state as its argument & the function can return a value
+
+
+# useDispatch
+    + a hook, which is used to dispatch an action with react-redux
+    + it returns a reference to dispatch function from redux store which 
+        can be used to dispatch actions as needed
+
+
+# USAGE WARNINGS while using hooks with react redux
