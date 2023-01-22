@@ -1,0 +1,2 @@
+# 
++ react-redux lib makes it first appearance while providing store to react
