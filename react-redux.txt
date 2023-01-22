@@ -23,3 +23,8 @@
     The API allows to subscribe to store & dispatch actions without connect()
 
     Hence,, How to use instead of connect ?
+
+# useSelector
+    + a hook by react-redux library, which is close equivalent to mapStateToProps
+    + this hook, accepts function as its parameter & this function is called Selector function
+    + this Selector function, receives redux state as its argument & the function can return a value
