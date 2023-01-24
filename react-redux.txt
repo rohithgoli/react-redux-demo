@@ -44,3 +44,11 @@
     + Import it in store.js
     + Now apply this logger Middleware using applyMiddleware available with redux
     this middleware logs the information related to redux store
+
+# redux-devtools-extension
+    + How to include it in our react-redux application ? 
+    + What is the basic usage ?
+
+    1) Add extension to chrome browser
+    2) Go to github repo of redux-devtools-extension & refer using package from npm
+    3) Explore its usage
