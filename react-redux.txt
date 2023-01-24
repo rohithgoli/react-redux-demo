@@ -70,4 +70,47 @@
 
     + How to use connect function if we only want to dispatch actions but not wanted to subscribe to changes of store
         In such case, we need to pass null as first argument to connect in props
+
+# async actions with react and redux
+    + actions
+        Synchronous actions: 
+            As soon as an action is dispatched, the state is immediately updated
+            eg: If you dispatch the BUY_CAKE action, the numOfCakes was right away decremented by 1
+                Same with BUY_ICECREAM action as well
+
+        Async actions 
+            We wait for task to complete before dispatching action
+            eg: Asynchronous API calls to fetch data from an end point and then dispatching an action
+                based on the response
+
+    + Our Application 
+        Fetches a list of users from an API endpoint and stores it in redux store
+        state ?
+        actions ?
+        reducers ?
+
+        state
+         {
+            loading: bool,
+            data: [],
+            error: ''
+         }
+
+        Actions 
+            FETCH_USERS_REQUEST 
+            FETCH_USERS_SUCCESS
+            FETCH_USERS_FAILURE
+        reducers
+            case: FETCH_USERS_REQUEST
+                loading: true
+            case: FETCH_USERS_SUCCESS
+                loading: false
+                users: data from API
+            case: FETCH_USERS_FAILURE
+                loading: false
+                error: error from API
+
+        Once these are made ready, We have to use Async actions to make API call, dispatch appropriate actions
+        and render in the browser
+
         
