@@ -57,4 +57,9 @@
     + Most of the times we would like to send some data from our component and use it in reducers
     Using action payload is a convenient way to acheive it
 
-    
+
+# mapStateToProps
+    + It receives redux state which we can use as prop in our component
+    + It also receives second parameter termed as ownProps, which are props of component passed by parent component
+
+    + MasterDetail pattern
