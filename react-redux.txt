@@ -52,3 +52,9 @@
     1) Add extension to chrome browser
     2) Go to github repo of redux-devtools-extension & refer using package from npm
     3) Explore its usage
+
+# Action payload --> How to add a payload to our action creator ?
+    + Most of the times we would like to send some data from our component and use it in reducers
+    Using action payload is a convenient way to acheive it
+
+    
