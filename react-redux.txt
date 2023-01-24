@@ -63,3 +63,11 @@
     + It also receives second parameter termed as ownProps, which are props of component passed by parent component
 
     + MasterDetail pattern
+
+
+# mapDispatchToProps
+    + It is a function which has two parameters , dispatch & ownProps(from parent component) 
+
+    + How to use connect function if we only want to dispatch actions but not wanted to subscribe to changes of store
+        In such case, we need to pass null as first argument to connect in props
+        
