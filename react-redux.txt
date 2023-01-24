@@ -37,3 +37,10 @@
 
 
 # USAGE WARNINGS while using hooks with react redux
+
+
+# logger Middleware
+    + Install redux-logger pkg
+    + Import it in store.js
+    + Now apply this logger Middleware using applyMiddleware available with redux
+    this middleware logs the information related to redux store
