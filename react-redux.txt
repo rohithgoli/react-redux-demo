@@ -114,3 +114,10 @@
         and render in the browser
 
         
+# Redux thunk GET Request
++ Two packages are required: 
+    1) axios - to make Request to an endpoint
+    2) redux-thunk - allows us to define asynchronous action creators in Appln
++ Apply redux-thunk middleware to our redux-store
++ Define async action creator
+
